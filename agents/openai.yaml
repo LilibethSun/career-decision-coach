@@ -1,0 +1,14 @@
+interface:
+  display_name: AI职业规划教练
+  short_description: 从职业需求地图到现实选择与30天验证的四步决策流程
+  default_prompt: Use $career-decision-coach to help me clarify my career needs and
+    compare my real options.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
